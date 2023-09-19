@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112" height="112" viewBox="0 0 112 112">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="112" height="112" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-iPhone_14_Pro_4">
+      <rect width="112" height="112"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_14_Pro_4" data-name="iPhone 14 Pro – 4" clip-path="url(#clip-iPhone_14_Pro_4)">
+    <rect width="112" height="112" fill="#fff"/>
+    <g id="Mask_Group_3" data-name="Mask Group 3" clip-path="url(#clip-path)">
+      <path id="noun-brand-2454480" d="M207.986,47.18,197.362,57.8H162.577a1.471,1.471,0,0,0-1.1.47l-44.342,44.312a1.552,1.552,0,0,0,0,2.225l35.442,35.442a1.574,1.574,0,0,0,1.1.47,1.522,1.522,0,0,0,1.1-.47L199.086,95.94a1.6,1.6,0,0,0,.47-1.1V60.028L210.178,49.4a1.562,1.562,0,0,0-2.193-2.225ZM196.453,94.186,153.709,136.93l-33.25-33.25L163.2,60.936h31.024l-9.62,9.62a7.867,7.867,0,1,0,3.51,6.55,8.031,8.031,0,0,0-1.285-4.324l9.62-9.62Zm-11.47-17.079a4.707,4.707,0,1,1-1.379-3.322,4.568,4.568,0,0,1,1.379,3.322Z" transform="translate(-109.169 -37.221)" fill="#00ced0" stroke="#51cdd0" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
