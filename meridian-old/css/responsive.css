@@ -1,0 +1,380 @@
+@charset "UTF-8";
+/* CSS Document */
+@media (max-width: 1920px) {
+.meridian_header .meridian_logo {
+  padding: 0 32px;
+}
+}
+@media (max-width: 1440px) {
+.wrap-login {
+  width: 880px;
+}
+.login-form img {
+  width: 155px;
+}
+.mos_form {
+  margin-bottom: 0;
+}
+.login-form, .signup-form {
+  padding: 70px 50px;
+}
+.login-pic {
+  padding: 105px 50px;
+}
+.register_mos, .login_mos {
+  padding: 12px 25px;
+}
+.SavedMedia__List ul {
+  max-height: 70vh;
+}
+.meridian_header .meridian_logo {
+  padding: 0 16px;
+}
+.meridian_logo img {
+  padding: 17px 8px;
+}
+.right__map {
+  width: 20%;
+}
+.campaign__items ul li {
+  width: 31.44%;
+}
+.add__media_body {
+  width: 70%;
+}
+.addLocForm {
+  width: 55%;
+}
+}
+@media (max-width: 1366px) {
+.submit_btn {
+  height: 45px;
+}
+.meridean_contact h3, .meridean_contact .mos_form {
+  margin-top: 0;
+}
+.btn_moshpit {
+  padding: 12px 0;
+}
+.meridean_contact .login_fields input {
+  height: 45px;
+  width: 100%;
+}
+.register_mos, .login_mos {
+  padding: 12px 25px;
+}
+.signup-form img {
+  width: 142px;
+  margin-bottom: 30px;
+}
+.mos_form {
+  margin: 60px auto;
+  margin-bottom: 0;
+  position: absolute;
+  float: left;
+  width: 100%;
+}
+.wrap-login {
+  width: 740px;
+}
+.login-pic {
+  padding: 80px 30px;
+}
+.login-form {
+  padding: 80px 40px;
+}
+.signup-form {
+  padding: 80px 40px;
+}
+.wrap-login .login-pic {
+  padding: 118px 30px;
+}
+.wrap_signup .login-pic {
+  padding: 80px 30px;
+}
+.burger_menu img {
+  padding: 13px;
+  width: 45px;
+}
+.login-form img {
+  margin-bottom: 20px;
+  width: 110px;
+}
+/*================ START ADD MEDIA ============*/
+.add__media_body {
+  width: 70%;
+}
+.upload__box .hold {
+  width: 83%;
+}
+/*================ END ADD MEDIA ============*/
+/*================ START CAMPAIGN NOT FOUND ============*/
+.meridian_logo img {
+  padding: 16px 6px;
+}
+.check__box label {
+  line-height: 18px;
+}
+/*================ END CAMPAIGN NOT FOUND ============*/
+/*================ START CAMPAIGN LIST ============*/
+.right__map {
+  width: 20%;
+}
+.campaign_list__items li img {
+  width: 25px;
+}
+.left__heading span {
+  padding: 16px;
+}
+.campaign__items ul li {
+  width: 31.89%;
+  margin: 7px;
+  padding: 20px;
+}
+.campaign__items ul li img {
+  width: 52px;
+}
+.campaign__items ul li .add__locations p {
+  font-size: 12px;
+}
+/*================ END CAMPAIGN LIST ============*/
+/*================ START ADD LOCATION FORM ============*/
+.addLocForm {
+  width: 50%;
+  margin: 0 auto;
+}
+.margin__side .size_multi {
+  margin: 0 5px 20px 6px;
+}
+/*================ END ADD LOCATION FORM ============*/
+/*================ START ALL SAVED MEDIA ============*/
+.SavedMedia__List ul li h4 {
+  font-size: 15px;
+  line-height: 20px;
+}
+.dragDrop_icon i {
+  font-size: 25px;
+}
+.SavedMedia__List ul {
+  max-height: 51vh;
+}
+/*================ END ALL SAVED MEDIA ============*/
+}
+@media (max-width: 1199px) {
+.mos_form {
+  margin: 80px auto;
+  margin-bottom: 0;
+}
+/*=========== START CAMPAIGN NOT FOUND =========*/
+.sidebar_list i {
+  font-size: 25px;
+  margin-bottom: 6px;
+}
+#m_aside_left .sidebar_list h4 .m-menu__link-text {
+  font-size: 12px;
+}
+.meridian_logo img {
+  padding: 21px 0px;
+}
+.m-body .meridian_sidebar {
+  width: 7.4%;
+}
+.meridian_header .meridian_logo {
+  width: 7.4%;
+}
+.add_cam_box img {
+  width: 95%;
+}
+.campaign_list__items li img {
+  width: 23px;
+}
+.left__heading span {
+  padding: 15px;
+}
+.left__heading p {
+  font-size: 12px;
+}
+/*=========== END CAMPAIGN NOT FOUND ==========*/
+/*=========== START CAMPAIGN LIST PAGE ==========*/
+.filter__icon {
+  width: 6.5%;
+}
+.serching__bar {
+  margin-bottom: 30px;
+}
+.left__heading {
+  margin-top: 15px;
+}
+.list__box {
+  padding-bottom: 20px;
+}
+.campaign_list__items ul li p {
+  font-size: 12px;
+}
+.right__map {
+  width: 23%;
+}
+.progressBar .progress {
+  height: 5px;
+}
+/*=========== END CAMPAIGN LIST PAGE ==========*/
+/*=========== START CAMPAIGN DETAILS ==========*/
+.campaign__items ul li {
+  width: 31.5%;
+  padding: 15px;
+}
+.campain__detailsHead p {
+  font-size: 13px;
+}
+/*=========== END CAMPAIGN DETAILS ==========*/
+/*=========== START ADD MEDIA PAGE ==========*/
+.upload__box .hold {
+  width: 78%;
+}
+.browse_file_box {
+  margin-top: 40px;
+}
+.addLocForm {
+  width: 65%;
+}
+/*=========== END ADD MEDIA PAGE ==========*/
+/*=========== START MEDIA LIST PAGE ==========*/
+.MediaList_box ul li {
+  padding: 25px;
+}
+.m__checkbox {
+  padding: 11px 13px;
+}
+.MediaList_box .m-checkbox.m-checkbox--solid > span {
+  height: 18px;
+  width: 19px;
+}
+.MediaList_box .m-checkbox.m-checkbox--single {
+  width: 16px;
+  height: 16px;
+}
+.BrandsList_box .list__item_box {
+  padding: 25px;
+}
+.SavedMedia__List ul {
+  max-height: 54vh;
+}
+/*=========== END MEDIA LIST PAGE ==========*/
+}
+@media (max-width: 992px) {
+.meridian_sidebar {
+  width: 9% !important;
+  display: block !important;
+  position: fixed;
+  bottom: 0;
+  top: 60px;
+  float: left;
+  left: 0;
+  z-index: 0;
+}
+.meridian_header .meridian_logo {
+  width: 9%;
+}
+.meridian--body .m-body .m-wrapper {
+  overflow: hidden;
+  width: 91%;
+  float: right;
+}
+}
+@media (max-width: 982px) {
+.wrap-login {
+  padding: 100px 80px 33px 80px;
+}
+.login-pic {
+  margin: auto;
+}
+.login-form, .signup-form {
+  width: 100%;
+}
+.head-border {
+  padding: 19px 0;
+}
+/*=========== START CAMPAIGN NOT FOUND ==========*/
+.meridian_logo .m-stack--general {
+  height: 60px;
+}
+.meridian_logo img {
+  padding: 18px 0px;
+}
+.meridian_header .meridian_logo {
+  padding: 0 22px;
+}
+.add__campaign {
+  width: 62%;
+}
+/*=========== END CAMPAIGN NOT FOUND ==========*/
+/*=========== START CAMPAIGN LIST PAGE ==========*/
+.right__map {
+  width: 32%;
+}
+.m-grid--desktop .m-portlet .m-portlet__body {
+  padding: 20px 20px;
+}
+.filter__icon {
+  width: 7.7%;
+}
+.cam__heading {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.serching__bar {
+  margin-bottom: 20px;
+}
+.campaign_list__items ul li p {
+  font-size: 11px;
+}
+.campaign_list__items li img {
+  width: 21px;
+}
+.right__map {
+  width: 28%;
+}
+.right__map a {
+  padding: 9px;
+}
+/*=========== END CAMPAIGN LIST PAGE ==========*/
+/*=========== START CAMPAIGN DETAILS ==========*/
+.campaign__items ul li {
+  width: 31.7%;
+  padding: 10px;
+  margin: 5px;
+}
+.campain__detailsHead {
+  margin-bottom: 30px;
+}
+.campaign__items ul li .add__locations p {
+  font-size: 11px;
+  padding: 6px 15px;
+}
+/*=========== END CAMPAIGN DETAILS ==========*/
+/*=========== START ADD MEDIA PAGE ==========*/
+.browse_file_box {
+  padding: 20px;
+}
+.margin__side .padding_l_0 {
+  max-width: 47.5%;
+}
+.margin__side .padding_r_0 {
+  max-width: 47.6%;
+}
+/*=========== END ADD MEDIA PAGE ==========*/
+/*=========== START MEDIA LIST PAGE ==========*/
+.m-grid__item .m-content .mapLoc_body {
+  padding: 0;
+}
+.MedList__heading {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+/*=========== End MEDIA LIST PAGE ==========*/
+}
+@media (max-width: 480px) {
+.wrap-login {
+  padding: 100px 15px 33px 15px;
+}
+}

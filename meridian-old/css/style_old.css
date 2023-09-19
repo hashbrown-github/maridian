@@ -1,0 +1,351 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+	font-family: 'Poppins-Regular';
+	line-height: 22.4252px;
+}
+.mapboxgl-ctrl-logo, .mapboxgl-ctrl {
+	display: none!important;
+}
+.marker {
+	background-image: url('../images/mapbox-icon.png');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.mapboxgl-map {
+	overflow: visible!important;
+}
+.mapboxgl-popup {
+	max-width: 200px;
+}
+.mapboxgl-popup-content {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.burger_menu img {
+	background-color: #263039;
+	padding: 15px;
+	position: relative;
+	border-radius: 2px;
+	width: 50px;
+}
+.burger_menu {
+	width: 100%;
+	float: left;
+}
+.moshpit_login {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+    position:relative;
+    z-index:1;
+}
+.moshpit_head {
+	float: right;
+}
+.login_btn {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	list-style: none;
+}
+.login_mos {
+	background: #fff;
+	padding: 15px 40px;
+	margin-right: 10px;
+	font-size: 14px;
+	line-height: 22.4252px;
+	border-radius: 2px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.17);
+	-moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.17);
+	-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+}
+.login_mos a {
+	color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+.register_mos {
+	background: #da0011;
+	padding: 15px 40px;
+	font-size: 14px;
+	line-height: 22.4252px;
+	border-radius: 2px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.17);
+	-moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.17);
+	-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.17);    cursor: pointer;
+}
+.register_mos a {
+	color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+.register_mos:hover a, .login_mos:hover a {
+	text-decoration: none;
+}
+.mos_form {
+	width: 100%;
+	margin: 110px auto;
+	float: left;
+	display: table;
+}
+.login-form img {
+	width: 150px;
+	margin-bottom: 50px;
+}
+.signup-form img {
+    width: 200px;
+    margin-bottom: 50px;
+}
+.container-login {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+}
+.wrap-login {
+    width: 960px;
+    max-width: 100%;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.12156862745098039);
+}
+.mos_form .form-control:focus {
+	border-color: #2e2e38;
+    outline: 0;
+    -webkit-box-shadow: 0 1px 0 0 #26a69a;
+    box-shadow: 0 1px 0 0 #2e2e38;
+}
+/*------------------------------------------------------------------
+[  ]*/
+.login-pic {
+	width: 45%;
+	background: #fbfbfb;
+	padding: 190px 50px;
+}
+.login-pic img {
+	max-width: 100%;
+}
+:focus {
+	outline: -webkit-focus-ring-color auto 0;
+}
+a:focus {
+    outline: -webkit-focus-ring-color auto 0;
+    text-decoration: none;
+}
+select:focus {
+    outline-offset: 0;
+}
+/*select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}*/
+.login-form, .signup-form {
+    width: 55%;
+    padding: 180px 50px;
+    text-align: center;
+    position: relative;
+}
+.login_fields input, .login_fields select {
+    background-color: #ffffff;
+    height: 45px;
+    color: #313131;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 13px;
+    line-height: 19.2px;
+    border-bottom: 1px solid #a3a3a3;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10px;
+}
+.marginT40{
+	margin-top:40px;
+}
+.btn_moshpit {
+	background-color: #da0011;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25882352941176473);
+    line-height: 22.4252px;
+	margin-top:30px;
+}
+.password_mos {
+	text-align: right;
+	margin: 10px 0 30px;
+	font-size: 14px;
+}
+.password_mos a {
+	color: #2e2e38;
+}
+.terms_login {
+	position: absolute;
+	bottom: 20px;
+	right: 50px;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.terms_login a {
+	color: #a2a2a2;
+	font-family: 'Poppins-Regular';
+}
+.mos_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 9;
+}
+.resend_otp {
+    position: relative;
+}
+.country_code select {
+    float: left;
+    border: 0;
+    font-size: 12px;
+    height: 45px;
+    margin-right: 10px;
+    background: transparent;
+    border-bottom: 1px solid #a3a3a3;
+    color: #a3a3a3;
+}
+.login_fields {
+    width: 100%;
+    float: left;
+    display: flex;
+    position: relative;
+}
+.go_btn {
+    position: absolute;
+    right: 0;
+    background: #2e2e38;
+    color: #fff;
+    padding: 11px 0;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    top: 1px;
+    width: 52px;
+} 
+.go_btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.resend_otp {
+    width: 100%;
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+.mos_form .go_btn:focus {
+    color: #fff;
+    border: transparent;
+    outline: 0;
+    text-decoration: none;
+}
+.resend_otp:hover a{
+	text-decoration:none;
+}
+.modal-backdrop {
+    background: transparent;
+}
+.otp_link a {
+    color: #da0011;
+    position: absolute;
+    top: -12px;
+    left: 7px;
+}
+.meridian_modal .modal{
+    overflow:hidden;
+}
+@media (max-width: 1366px) {
+.btn_moshpit {
+    padding: 12px 0;
+}
+.register_mos, .login_mos {
+    padding: 12px 25px;
+}
+.signup-form img {
+    width: 170px;
+    margin-bottom: 30px;
+}
+.mos_form {
+    margin: 80px auto;
+    position: absolute;
+}
+.wrap-login {
+    width: 800px;
+}
+.login-pic {
+    padding: 130px 30px;
+}
+.login-form, .signup-form {
+    padding: 90px 30px;
+}
+.login-form, .signup-form {
+  
+    padding: 65px 40px;
+}
+.burger_menu img {
+    padding: 13px;
+    width: 45px;
+}
+.login-form img {
+    width: 130px;
+    margin-bottom: 30px;
+}
+}
+@media (max-width: 768px) {
+.wrap-login {
+    padding: 100px 80px 33px 80px;
+}
+.login-pic {
+    margin: auto;
+}
+.login-form, .signup-form {
+    width: 100%;
+}
+}
+@media (max-width: 576px) {
+.wrap-login {
+    padding: 100px 15px 33px 15px;
+}
+}

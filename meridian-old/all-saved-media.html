@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="utf-8" />
+<title>All Saved Media</title>
+<meta name="description" content="General widget examples">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css" rel="stylesheet" />
+<link href="css/vendors.bundle.css" rel="stylesheet" type="text/css" />
+<link href="css/style.bundle.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="images/fav-icon.ico" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js"></script>
+</head>
+
+<body class="login_form_pages m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled  m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default meridian--body">
+<div class="m-grid m-grid--hor m-grid--root m-page">
+  <header class="m-grid__item m-header m-header-new meridian_header"  data-minimize-offset="200" data-minimize-mobile-offset="200" >
+    <div class="m-container m-container--fluid m-container--full-height">
+      <div class="m-stack m-stack--ver m-stack--desktop">
+        <div class="m-stack__item m-brand m-brand-new meridian_logo">
+          <div class="m-stack m-stack--ver m-stack--general"><a href="../../index.html" class="logo-wrapper"> <img alt="purchasing logo" src="images/_meridian-logo.png" /></a> </div>
+        </div>
+        <div class="head-border">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header__section">
+            <div class="float-right header_icons">
+              <ul class="header__list">
+                <li class="header_icons_set"> <a href="#"><span class="header_list_item">Create Campaign</span> </a></li>
+                <li class="header_icons_set"> <a href="#"><i class="la la-headphones icons__prop"></i></a> </li>
+                <li class="header_icons_set"> <a href="#"><i class="la la-bell icons__prop"></i></a> </li>
+                <li class="m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-right header_icons_set" data-dropdown-toggle="hover" aria-expanded="true"> <span class="profile_visit"> <a href="#"> <span class="header_list_item">Shagun Justa <i class="la la-caret-down" ></i> </span> </a></span>
+                  <div class="m-dropdown__wrapper"> <span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust" style="left: auto; right: 70.172px;"></span>
+                    <div class="m-dropdown__inner">
+                      <div class="m-dropdown__body">
+                        <div class="m-dropdown__content">
+                          <ul class="m-nav">
+                            <li class="m-nav__section m-nav__section--first m--hide"> <span class="m-nav__section-text"> Quick Actions </span> </li>
+                            <li class="m-nav__item"> <a href="#" class="m-nav__link"> <i class="m-nav__link-icon la la-user profile__icon"></i> <span class="profile__text"> View Profile </span> </a> </li>
+                            <li class="m-nav__item"> <a href="#" class="m-nav__link"> <i class="m-nav__link-icon la la-unlock-alt profile__icon"></i> <span class="profile__text"> Change Password </span> </a> </li>
+                            <li class="m-nav__item"> <a href="#" class="m-nav__link"> <i class="m-nav__link-icon la la-sign-out profile__icon"></i> <span class="profile__text"> Logout </span> </a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+    <button class="m-aside-left-close  m-aside-left-close--skin-dark " id="m_aside_left_close_btn"> <i class="la la-close"></i> </button>
+    <div id="m_aside_left" class="m-grid__item	m-aside-left vendor-skin-light meridian_sidebar">
+      <div  id="m_ver_menu"  class="m-aside-menu  m-aside-menu--submenu-skin-dark" data-menu-vertical="true" data-menu-scrollable="false" data-menu-dropdown-timeout="500" >
+        <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
+          <li class="m-menu__item sidebar_list" aria-haspopup="true" > <a  href="#" class="m-menu__link "> <i class="la la-image"></i>
+            <h4> <span class="m-menu__link-wrap"> <span class="m-menu__link-text"> Media </span> </span> </h4>
+            </a> </li>
+          <li class="m-menu__item sidebar_list" aria-haspopup="true" > <a  href="#" class="m-menu__link "> <i class="la la-thumb-tack"></i>
+            <h4> <span class="m-menu__link-wrap"> <span class="m-menu__link-text"> Campaigns </span> </span> </h4>
+            </a> </li>
+          <li class="m-menu__item sidebar_list" aria-haspopup="true" > <a  href="#" class="m-menu__link "> <i class="la la-tags"></i>
+            <h4> <span class="m-menu__link-wrap"> <span class="m-menu__link-text"> Brands </span> </span> </h4>
+            </a> </li>
+          <li class="m-menu__item sidebar_list" aria-haspopup="true" > <a  href="#" class="m-menu__link "> <i class="la la-user"></i>
+            <h4> <span class="m-menu__link-wrap"> <span class="m-menu__link-text"> Agent </span> </span> </h4>
+            </a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="m-grid__item m-grid__item--fluid m-wrapper">
+      <div class="m-content padding-bottom-0">
+        <div class="">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-5">
+              <div class="mapLoc__box">
+                <div class="allsaved__media">
+                  <div class="sav__heading">
+                    <div class="sav__head">
+                      <h1>All Media</h1>
+                    </div>
+                    <div class="allMedia_btn"> <a href="" class="saveMed_button">Save Media</a> </div>
+                  </div>
+                  <div class="SavedMedia__List">
+                    <ul>
+                      <li> <a href="#">
+                        <h4>Location Name Here....</h4>
+                        <div class="AddLoc_txt">
+                          <p class="left_prt"><img src="images/billboard-icon.png" alt="Billboard-Icon" />Billboard</p>
+                          <p class="right_prt"><img src="images/pointer-icon.png" alt="Location-Icon" />Shimla</p>
+                        </div>
+                        </a> </li>
+                      <li class="bg_pinkDanger"> <a href="#">
+                        <h4>Location Name Here....</h4>
+                        <div class="AddLoc_txt">
+                          <p class="left_prt"><img src="images/billboard-icon.png" alt="Billboard-Icon" />Billboard</p>
+                          <p class="right_prt"><img src="images/pointer-icon.png" alt="Location-Icon" />Shimla</p>
+                        </div>
+                        </a> </li>
+                      <li class="bg_pinkDanger"> <a href="#">
+                        <h4>Location Name Here....</h4>
+                        <div class="AddLoc_txt">
+                          <p class="left_prt"><img src="images/billboard-icon.png" alt="Billboard-Icon" />Billboard</p>
+                          <p class="right_prt"><img src="images/pointer-icon.png" alt="Location-Icon" />Shimla</p>
+                        </div>
+                        </a> </li>
+                      <li> <a href="#">
+                        <h4>Location Name Here....</h4>
+                        <div class="AddLoc_txt">
+                          <p class="left_prt"><img src="images/billboard-icon.png" alt="Billboard-Icon" />Billboard</p>
+                          <p class="right_prt"><img src="images/pointer-icon.png" alt="Location-Icon" />Shimla</p>
+                        </div>
+                        </a> </li>
+                      <li> <a href="#">
+                        <h4>Location Name Here....</h4>
+                        <div class="AddLoc_txt">
+                          <p class="left_prt"><img src="images/billboard-icon.png" alt="Billboard-Icon" />Billboard</p>
+                          <p class="right_prt"><img src="images/pointer-icon.png" alt="Location-Icon" />Shimla</p>
+                        </div>
+                        </a> </li>
+                      <li> <a href="#">
+                        <h4>Location Name Here....</h4>
+                        <div class="AddLoc_txt">
+                          <p class="left_prt"><img src="images/billboard-icon.png" alt="Billboard-Icon" />Billboard</p>
+                          <p class="right_prt"><img src="images/pointer-icon.png" alt="Location-Icon" />Shimla</p>
+                        </div>
+                        </a> </li>
+                      <li> <a href="#">
+                        <h4>Location Name Here....</h4>
+                        <div class="AddLoc_txt">
+                          <p class="left_prt"><img src="images/billboard-icon.png" alt="Billboard-Icon" />Billboard</p>
+                          <p class="right_prt"><img src="images/pointer-icon.png" alt="Location-Icon" />Shimla</p>
+                        </div>
+                        </a> </li>
+                      <li> <a href="#">
+                        <h4>Location Name Here....</h4>
+                        <div class="AddLoc_txt">
+                          <p class="left_prt"><img src="images/billboard-icon.png" alt="Billboard-Icon" />Billboard</p>
+                          <p class="right_prt"><img src="images/pointer-icon.png" alt="Location-Icon" />Shimla</p>
+                        </div>
+                        </a> </li>
+                      <li> <a href="#">
+                        <h4>Location Name Here....</h4>
+                        <div class="AddLoc_txt">
+                          <p class="left_prt"><img src="images/billboard-icon.png" alt="Billboard-Icon" />Billboard</p>
+                          <p class="right_prt"><img src="images/pointer-icon.png" alt="Location-Icon" />Shimla</p>
+                        </div>
+                        </a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-7 padding___zer0">
+              <div class="map_dashboard">
+                <div class="dragDrop_icon"><i class="la la-thumb-tack" draggable="true" ondragstart="drag(event)"></i></div>
+                <div id="map1" class="dashboard_map"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/vendors.bundle.js" type="text/javascript"></script> 
+<script src="js/scripts.bundle.js" type="text/javascript"></script> 
+<script src="js/bootstrap-datepicker.js" type="text/javascript"></script> 
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script> 
+<script>
+   mapboxgl.accessToken = 'pk.eyJ1IjoibWVyaWRpYW4wIiwiYSI6ImNqejNxcDhobzA1dmgzb28xeWVpOWE2NDYifQ.o5MPxFVCgW4EIXIOswUdXg';
+   var map = new mapboxgl.Map({
+             container: 'map1',
+             style: 'mapbox://styles/mapbox/light-v10',
+             center: [76.779419, 30.733315], minZoom: 3, zoom: 4
+   });
+   map.addControl();
+   var geojson = {
+            type: 'FeatureCollection',
+            features: [{
+            type: 'Feature',
+            geometry: {
+            type: 'Point',
+            coordinates: [79.315071, 16.571051]
+   },
+            properties: {
+            title: 'Panchkula',
+            description: 'Panchkula Description'
+   }
+   },
+         {
+            type: 'Feature',
+            geometry: {
+            type: 'Point',
+            coordinates: [76.641357, 30.748882]
+                },
+            properties: {
+            title: 'Kharar',
+            description: 'Kharar Description'
+                }
+                },
+             {
+            type: 'Feature',
+            geometry: {
+            type: 'Point',
+            coordinates: [76.580002, 30.830400]
+                },
+            properties: {
+            title: 'Kurali',
+            description: 'Kurali Description'
+                }
+                },
+             {
+            type: 'Feature',
+            geometry: {
+            type: 'Point',
+            coordinates: [76.523026, 30.965918]
+                },
+            properties: {
+            title: 'Rupnagar',
+            description: 'Rupnagar Description'
+        }
+     }
+  ]
+};
+
+        // add markers to map
+        geojson.features.forEach(function (marker) {
+
+            // create a HTML element for each feature
+            var el = document.createElement('div');
+            el.className = 'marker';
+
+            // make a marker for each feature and add to the map
+            new mapboxgl.Marker(el)
+                .setLngLat(marker.geometry.coordinates)
+                .addTo(map);
+
+             new mapboxgl.Marker(el)
+            .setLngLat(marker.geometry.coordinates)
+            .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+                .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+            .addTo(map);
+        });
+
+       
+    </script>
+</body>
+</html>
